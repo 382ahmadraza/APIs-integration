@@ -19,7 +19,7 @@ import axios from "axios";
 
 export  async function fetchProperties() {
 
-    const url = "https://dummyjson.com/products"
+    const url = "http://localhost:1337/api/posts"
     try {
         const res = await axios.get(url);
         return { data: res.data, error: null }
