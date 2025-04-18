@@ -18,6 +18,7 @@ export const Forms: React.FC<ProductsPageProps> = ({ products }) => {
       <h1 className="text-2xl font-bold mb-4">All Products</h1>
 
       {/* map on all products  */}
+      
       <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {products.map((product) => (
           <li key={product.id} className="border p-4 rounded shadow">

@@ -5,6 +5,7 @@ import Image from "next/image";
 export default async function ProductsPage() {
 
   // const { data, error } = await fetchProperties();
+
   // console.log(data , error);
 
 
@@ -12,6 +13,7 @@ export default async function ProductsPage() {
     <div className="p-4">
 
         <Forms products={[]} />
+        
       <h1 className="text-2xl font-bold mb-4">Top 5 Products</h1>
       {/* <ul className="grid grid-cols-3 gap-4">
         {data?.products?.slice(0,10)?.map((product: any) => (
