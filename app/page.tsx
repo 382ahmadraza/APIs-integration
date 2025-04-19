@@ -1,11 +1,9 @@
 import Forms from "@/component/form";
 import Image from "next/image";
-// import {   fetchProperties } from "@/actions/property.action";
 
 export default async function ProductsPage() {
 
   // const { data, error } = await fetchProperties();
-
   // console.log(data , error);
 
 

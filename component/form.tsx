@@ -32,6 +32,7 @@ export const Forms: React.FC<ProductsPageProps> = ({ products }) => {
           </li>
         ))}
       </ul>
+      
     </div>
   );
 };
